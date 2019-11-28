@@ -1,0 +1,14 @@
+{
+  "name": "com.outsystems.ios_shared_webcredentials",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "com.outsystems.ios_shared_webcredentials",
+    "platforms": []
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Andre Grillo",
+  "license": "ISC"
+}

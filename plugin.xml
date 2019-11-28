@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.outsystems.ios_shared_webcredentials" version="1.0.0">
+   <name>iosSharedWebCredentials</name>
+   <js-module name="iosSharedWebCredentials" src="www/iosSharedWebCredentials.js">
+      <clobbers target="cordova.plugins.iosSharedWebCredentials" />
+   </js-module>
+   <preference name="APP_DOMAIN" />
+   <preference name="APP_NAME" />
+   <platform name="ios">
+      <hook type="after_plugin_add" src="hooks/injectAppDomain.js" />
+      <config-file parent="/*" target="config.xml">
+         <feature name="iosSharedWebCredentials">
+            <param name="ios-package" value="iosSharedWebCredentials" />
+         </feature>
+      </config-file>
+      <resource-file src="src/ios/resources/app.entitlements" />
+   </platform>
+</plugin>
