@@ -19,8 +19,11 @@ To ensure your HTML input element displays the right AutoFill suggestion, set th
 Use the following autocomplete attribute values:
 
 User Name: ```username```
+
 Password: ```current-password```
+
 New Password: ```new-password```
+
 One-Time Code: ```one-time-code```
 
 
