@@ -1,4 +1,4 @@
-# iOS Shared Web Credentials
+# Cordova iOS Shared Web Credentials
 
 Set up associated domains to share credentials with a website related to your Cordova iOS app.
 
