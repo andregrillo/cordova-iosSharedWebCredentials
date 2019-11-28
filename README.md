@@ -4,7 +4,7 @@ Set up associated domains to share credentials with a website related to your Co
 
 ## Overview
 
-Often you will want save user credentials to KeyChain or to associate your website with your app because they are often different versions of the same app or are related and want to share data. To associate a website with an app, you will need to have a file on your website and an entitlement in your app.
+Often you will want save user credentials to iCloud KeyChain or to associate your website with your app because they are often different versions of the same app or are related and want to share data. To associate a website with an app, you will need to have a file on your website and an entitlement in your app.
 
 An associated domain matches the Associated Domains Entitlement in your app with an apple-app-site-association file on your website.
 
