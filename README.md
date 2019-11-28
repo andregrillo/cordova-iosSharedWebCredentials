@@ -91,4 +91,4 @@ You must host the file using https:// with a valid certificate and without using
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
