@@ -18,13 +18,10 @@ To ensure your HTML input element displays the right AutoFill suggestion, set th
 
 Use the following autocomplete attribute values:
 
-User Name: username
-
-Password: current-password
-
-New Password: new-password
-
-One-Time Code: one-time-code
+User Name: ```username```
+Password: ```current-password```
+New Password: ```new-password```
+One-Time Code: ```one-time-code```
 
 
 Explicitly defining an input element’s autocomplete value lets you support login workflows that couldn’t otherwise be detected by Password AutoFill’s heuristics. For example, the heuristics assume the user name and password inputs are on the same page. If you have a multipage login form, explicitly setting the username and current-password types lets the user tap and fill those inputs, even if they are on separate pages. Similarly, the heuristics assume that password and new password inputs always use secure text; therefore, if you want to let the user type their passwords in plain text, you’ll need to set the input’s text content type to either current-password or new-password.
