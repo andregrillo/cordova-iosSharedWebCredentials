@@ -13,7 +13,9 @@ It’s important to establish an association between domains and your app if you
 ## Plugin Installation
 
 There are two input parameters to be passed: 
+
 APP_DOMAIN - enter your site domain (eg: outsystems.com)
+
 APP_NAME - enter your app name 
 
 ```
