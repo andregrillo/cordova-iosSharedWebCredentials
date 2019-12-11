@@ -4,8 +4,6 @@
    <js-module name="iosSharedWebCredentials" src="www/iosSharedWebCredentials.js">
       <clobbers target="cordova.plugins.iosSharedWebCredentials" />
    </js-module>
-   <preference name="APP_DOMAIN" />
-   <preference name="APP_NAME" />
    <platform name="ios">
       <hook type="after_plugin_add" src="hooks/injectAppDomain.js" />
       <config-file parent="/*" target="config.xml">
