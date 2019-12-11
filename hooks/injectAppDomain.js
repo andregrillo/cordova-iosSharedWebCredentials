@@ -36,7 +36,7 @@ module.exports = function(context) {
                 var xmlSerializer = new XMLSerializer();
                 fs.writeFileSync(platformRoot, xmlSerializer.serializeToString(doc));
 
-                const entitlementsFile = path.join(context.opts.projectRoot, 'platforms/ios/HelloCordova/Resources/HelloCordova.entitlements');
+                const entitlementsFile = path.join(context.opts.projectRoot, 'platforms/ios/cordova/Resources/HelloCordova.entitlements');
                 fs.rename(platformRoot, entitlementsFile, function(err) {
                 if ( err ) console.log('ERROR: ' + err);
 });
