@@ -18,7 +18,7 @@ module.exports = function(context) {
             var APP_DOMAIN = getPreferenceValue(config, "APP_DOMAIN")
         }
 
-        const platformRoot = path.join(context.opts.projectRoot, 'platforms/ios/HelloCordova/Resources/app.entitlements');
+        const platformRoot = path.join(context.opts.projectRoot, 'platforms/ios/cordova/Resources/app.entitlements');
 
         var fullXMLPath = path.join("Resources", "app.entitlements");
 
